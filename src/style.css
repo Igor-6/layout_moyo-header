@@ -17,6 +17,7 @@ body {
   align-items: center;
   background: #fff;
   padding: 0 50px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
 .logo {
@@ -37,7 +38,7 @@ body {
 }
 
 .nav__item:not(:first-child) {
-  margin-left: 16px;
+  margin-left: 20px;
 }
 
 .nav__link {
@@ -64,8 +65,9 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  height: 3px;
+  height: 4px;
   background: var(--color-blue);
+  border-radius: 8px;
 }
 
 .nav__link:hover {
