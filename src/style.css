@@ -9,7 +9,6 @@ body {
   background: #f0f0f0;
 }
 
-/* Header */
 .header {
   background: #fff;
   border-bottom: 1px solid #e5e5e5;
@@ -26,7 +25,6 @@ body {
   gap: 32px;
 }
 
-/* Logo */
 .logo {
   display: flex;
   flex-shrink: 0;
@@ -73,16 +71,6 @@ body {
   height: 100%;
 }
 
-.nav__link--active {
-  color: #0ad;
-}
-
-.nav__link:hover {
-  color: #0ad;
-}
-
-
-
 .nav__link {
   display: flex;
   align-items: center;
@@ -99,6 +87,10 @@ body {
   transition: color 0.15s;
 }
 
+.nav__link--active {
+  color: #0ad;
+}
+
 .nav__link--underline::after {
   content: '';
   position: absolute;
@@ -110,7 +102,10 @@ body {
   border-radius: 2px 2px 0 0;
 }
 
-/* Responsive */
+.nav__link:hover {
+  color: #0ad;
+}
+
 @media (max-width: 1024px) {
   .header__inner {
     max-width: 1024px;
