@@ -52,11 +52,13 @@ body {
 }
 
 .logo__cell--mo-1 { background: #1a1a1a; color: #fff; }
-.logo__cell--mo-2 { background: #00aadd; color: #fff; }
-.logo__cell--yo-1 { background: #00aadd; color: #fff; }
+
+.logo__cell--mo-2 { background: #0ad; color: #fff; }
+
+.logo__cell--yo-1 { background: #0ad; color: #fff; }
+
 .logo__cell--yo-2 { background: #1a1a1a; color: #fff; }
 
-/* Nav */
 .nav {
   display: flex;
   align-items: center;
@@ -74,11 +76,11 @@ body {
 
 
 .nav__link:hover {
-  color: #00aadd;
+  color: #0ad;
 }
 
 .nav__link--active {
-  color: #00aadd;
+  color: #0ad;
 }
 
 .nav__link {
@@ -104,7 +106,7 @@ body {
   left: 14px;
   right: 14px;
   height: 3px;
-  background: #00aadd;
+  background: #0ad;
   border-radius: 2px 2px 0 0;
 }
 
