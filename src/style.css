@@ -87,7 +87,7 @@ body {
   transition: color 0.15s;
 }
 
-.nav__link--active {
+.is-active {
   color: #0ad;
 }
 
