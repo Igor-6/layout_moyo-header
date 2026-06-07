@@ -4,34 +4,46 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>MOYO Header</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
 <header class="header">
-  <div class="header__inner">
+  <a href="#" class="logo">
+    <img src="images/logo.png" alt="MOYO" />
+  </a>
 
-    <a href="images/logo.png" class="logo" aria-label="MOYO">
-      <div class="logo__grid">
-        <div class="logo__cell logo__cell--mo-1">M</div>
-        <div class="logo__cell logo__cell--mo-2">O</div>
-        <div class="logo__cell logo__cell--yo-1">Y</div>
-        <div class="logo__cell logo__cell--yo-2">O</div>
-      </div>
-    </a>
-
-    <nav class="nav" aria-label="Головна навігація">
-      <div class="nav__item"><a href="#" class="nav__link is-active nav__link--underline">Apple</a></div>
-      <div class="nav__item"><a href="#" class="nav__link" data-qa="hover">Samsung</a></div>
-      <div class="nav__item"><a href="#" class="nav__link">Smartphones</a></div>
-      <div class="nav__item"><a href="#" class="nav__link is-active">Laptops &amp; Computers</a></div>
-      <div class="nav__item"><a href="#" class="nav__link">Gadgets</a></div>
-      <div class="nav__item"><a href="#" class="nav__link">Tablets</a></div>
-      <div class="nav__item"><a href="#" class="nav__link">Photo</a></div>
-      <div class="nav__item"><a href="#" class="nav__link">Video</a></div>
-    </nav>
-
-  </div>
+  <nav class="nav">
+    <ul class="nav__list">
+      <li class="nav__item">
+        <a href="#" class="nav__link is-active">Apple</a>
+      </li>
+      <li class="nav__item">
+        <a href="#" class="nav__link">Samsung</a>
+      </li>
+      <li class="nav__item">
+        <a href="#" class="nav__link">Smartphones</a>
+      </li>
+      <li class="nav__item">
+        <a href="#" class="nav__link" data-qa="hover">Laptops &amp; Computers</a>
+      </li>
+      <li class="nav__item">
+        <a href="#" class="nav__link">Gadgets</a>
+      </li>
+      <li class="nav__item">
+        <a href="#" class="nav__link">Tablets</a>
+      </li>
+      <li class="nav__item">
+        <a href="#" class="nav__link">Photo</a>
+      </li>
+      <li class="nav__item">
+        <a href="#" class="nav__link">Video</a>
+      </li>
+    </ul>
+  </nav>
 </header>
 
 </body>
